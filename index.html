@@ -58,4 +58,43 @@
         </svg>
         LinkedIn
       </a>
-      <a class="chip" href="https://warpcast.com/verb4l" target
+      <a class="chip" href="https://warpcast.com/verb4l" target="_blank" rel="noopener" aria-label="Farcaster">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <path d="M6 3h12v4H10v3h7v4h-7v7H6z"/>
+        </svg>
+        Farcaster
+      </a>
+    </div>
+
+    <!-- Highlights -->
+    <div class="section">
+      <h2>Highlights</h2>
+      <div class="list">
+        <article class="card">
+          <h3>Articles & Research</h3>
+          <p class="meta">Writing on humanitarian law, blockchain, and decentralized systems.</p>
+          <p><a class="chip pink" href="articles.html">Browse Articles →</a></p>
+        </article>
+        <article class="card">
+          <h3>Projects</h3>
+          <p class="meta">Active and past contributions across humanitarian tech and blockchain.</p>
+          <p><a class="chip green" href="projects.html">See Projects →</a></p>
+        </article>
+        <article class="card">
+          <h3>Personal Blog</h3>
+          <p class="meta">Short notes, case studies, and work-in-progress ideas.</p>
+          <p><a class="chip yellow" href="blog.html">Read the Blog →</a></p>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-inner">© <span id="y"></span> Verber Souza.</div>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
