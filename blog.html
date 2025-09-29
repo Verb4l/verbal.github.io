@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Personal Blog — Verbal</title>
+  <meta name="description" content="Personal notes and informal posts by Verber Souza." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <!-- Home chip -->
+    <a href="index.html" class="chip home-btn">🏠 Home</a>
+    <header class="top">
+      <img src="avatar.jpg" alt="Verber Souza avatar" class="avatar" />
+      <div class="info">
+        <h1>Personal Blog</h1>
+        <p class="lead">Short notes, case studies, and work-in-progress ideas.</p>
+      </div>
+    </header>
+    <section class="section">
+      <h2>2025</h2>
+      <div class="list">
+        <article class="card">
+          <h3>Notes from the field — Humanitarian tech challenges</h3>
+          <p class="meta">Jan 2025</p>
+          <p>Reflections on deploying blockchain solutions in crisis environments.</p>
+        </article>
+        <article class="card">
+          <h3>Legal frameworks for decentralized systems</h3>
+          <p class="meta">Jan 2025</p>
+          <p>Exploring regulatory challenges and opportunities in blockchain governance.</p>
+        </article>
+      </div>
+    </section>
+    <section class="section">
+      <h2>2024</h2>
+      <div class="list">
+        <article class="card">
+          <h3>Why humanitarian crises need better tech infrastructure</h3>
+          <p class="meta">Dec 2024</p>
+          <p>It's not just about aid—it's about sustainable systems and local capacity building.</p>
+        </article>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-inner">© <span id="y"></span> Verber Souza.</div>
+    </footer>
+  </div>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
