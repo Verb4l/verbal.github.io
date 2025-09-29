@@ -82,6 +82,14 @@ a:hover {
 .top .info h1 {
   font-size: 1.8rem;
   font-weight: 700;
+  margin-bottom: 0.15rem;
+}
+
+.top .info .nickname {
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: var(--gray);
+  margin-bottom: 0.5rem;
 }
 
 .top .info p.lead {
